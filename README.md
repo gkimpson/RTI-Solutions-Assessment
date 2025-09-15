@@ -38,7 +38,7 @@ composer run dev
 ```
 
 #### Database Configuration
-The application is pre-configured to use SQLite for simplicity. The database file is automatically created during setup with the supplied .env (in real-life this .env would need be added to the repo however this is to make setup easier)
+The application is pre-configured to use SQLite for simplicity. The database file is automatically created during setup with the supplied .env (in real-life this .env would not be added to the repo however this is to make setup easier)
 
 **To use MySQL instead:**
 1. Update your `.env` file:
@@ -53,7 +53,7 @@ The application is pre-configured to use SQLite for simplicity. The database fil
 
 #### Start Development Server
 ```bash
-php artisan serve
+composer run dev
 ```
 
 The application will be accessible at:
