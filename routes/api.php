@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * This code/application is for a coding assessment for RTI Solutions.
+ * It is subject to the terms of the license provided in the project's root directory.
+ *
+ * Copyright (c) 2025 Gavin Kimpson
+ * All rights reserved.
+ */
+
 declare(strict_types=1);
 
 use App\Http\Controllers\Api\AuthController;
