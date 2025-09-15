@@ -66,6 +66,14 @@
         "test": [
             "@php artisan config:clear --ansi",
             "@php artisan test"
+        ],
+        "setup": [
+            "composer install",
+            "npm install",
+            "@php artisan key:generate --ansi",
+            "@php artisan migrate --ansi",
+            "@php artisan db:seed --ansi",
+            "composer run dev"
         ]
     },
     "extra": {
