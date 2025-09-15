@@ -47,7 +47,7 @@ enum UserRole: string
             self::User => 10,
         };
     }
-    
+
     /**
      * Get the permissions array for this role.
      */

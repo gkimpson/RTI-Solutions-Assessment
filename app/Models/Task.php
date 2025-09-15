@@ -13,7 +13,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\HigherOrderCollectionProxy;
-use LaravelIdea\Helper\App\Models\_IH_Task_QB;
 
 /**
  * @property HigherOrderCollectionProxy|int|mixed $version
@@ -76,6 +75,4 @@ class Task extends Model
     {
         return $this->belongsTo(User::class, 'user_id');
     }
-
-    
 }

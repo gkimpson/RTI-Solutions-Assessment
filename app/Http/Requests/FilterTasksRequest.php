@@ -90,5 +90,4 @@ class FilterTasksRequest extends FormRequest
             'tag_operator.in' => 'Tag operator must be either "and" or "or".',
         ];
     }
-
 }

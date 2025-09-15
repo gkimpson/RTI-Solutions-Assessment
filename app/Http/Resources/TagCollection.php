@@ -16,7 +16,7 @@ class TagCollection extends ResourceCollection
     {
         // Check if the first item is an array (cached data) or object (Eloquent model)
         $isCachedData = $this->collection->isNotEmpty() && is_array($this->collection->first());
-        
+
         if ($isCachedData) {
             // For cached data, return the arrays directly
             $data = $this->collection->map(function ($tag) {
@@ -64,7 +64,7 @@ class TagCollection extends ResourceCollection
             // Handle both object and array cases
             $name = is_object($tag) ? $tag->name : $tag['name'];
             $tasksCount = is_object($tag) ? $tag->tasks_count : $tag['tasks_count'];
-            
+
             $result[] = [
                 'name' => $name,
                 'tasks_count' => $tasksCount,

@@ -25,10 +25,10 @@ it('ensures models are properly cleaned up', function () {
         'operation_type' => TaskLogOperation::Create,
         'performed_at' => now(),
     ]);
-    
+
     expect($taskLog)->toBeInstanceOf(TaskLog::class);
     expect($taskLog->operation_type)->toBe(TaskLogOperation::Create);
-    
+
     // Test that the User model works correctly
     $user = User::factory()->create(['name' => 'Test User']);
     expect($user)->toBeInstanceOf(User::class);

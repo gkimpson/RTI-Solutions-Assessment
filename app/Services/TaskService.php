@@ -648,6 +648,4 @@ class TaskService
             ]
         );
     }
-
-    
 }
