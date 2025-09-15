@@ -31,6 +31,7 @@ If you prefer to run commands individually:
 
 ```bash
 composer install && npm install
+cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
@@ -38,7 +39,7 @@ composer run dev
 ```
 
 #### Database Configuration
-The application is pre-configured to use SQLite for simplicity. The database file is automatically created during setup with the supplied .env (in real-life this .env would not be added to the repo however this is to make setup easier and not actually deployed to a real-life server)
+The application is pre-configured to use SQLite for simplicity. The database file is automatically created during setup with the composer setup command to use sqlite, however this can be any database of your choice.
 
 **To use MySQL instead:**
 1. Update your `.env` file:
