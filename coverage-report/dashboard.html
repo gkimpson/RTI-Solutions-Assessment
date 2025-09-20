@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/gavin/Herd/taskassessment/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=12.3.7" rel="stylesheet" type="text/css">
+  <link href="_css/billboard.min.css?v=12.3.7" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=12.3.7" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/Users/gavin/Herd/taskassessment/app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DTO/ApiResponseData.php.html#7">App\DTO\ApiResponseData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#13">App\Enums\TaskLogOperation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/TaskBulkOperationException.php.html#9">App\Exceptions\TaskBulkOperationException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/TaskNotDeletedException.php.html#9">App\Exceptions\TaskNotDeletedException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Resources/TaskCollection.php.html#10">App\Http\Resources\TaskCollection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Auth/Login.php.html#17">App\Livewire\Auth\Login</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Auth/VerifyEmail.php.html#13">App\Livewire\Auth\VerifyEmail</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#13">App\Enums\BulkAction</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#13">App\Enums\UserRole</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#13">App\Enums\TaskPriority</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#13">App\Enums\TaskStatus</a></td><td class="text-right">4%</td></tr>
+       <tr><td><a href="Models/Tag.php.html#11">App\Models\Tag</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Services/CacheService.php.html#11">App\Services\CacheService</a></td><td class="text-right">36%</td></tr>
+       <tr><td><a href="Models/TaskLog.php.html#14">App\Models\TaskLog</a></td><td class="text-right">49%</td></tr>
+       <tr><td><a href="Services/ApiResponseService.php.html#11">App\Services\ApiResponseService</a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="Http/Resources/TagCollection.php.html#10">App\Http\Resources\TagCollection</a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="DTO/BulkTaskData.php.html#18">App\DTO\BulkTaskData</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Rules/ValidMetadata.php.html#10">App\Rules\ValidMetadata</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="Rules/ValidDueDate.php.html#13">App\Rules\ValidDueDate</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#30">App\Http\Controllers\Api\TaskController</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#12">App\Services\TaskFilterService</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="DTO/TaskData.php.html#12">App\DTO\TaskData</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerifyEmailController.php.html#11">App\Http\Controllers\Auth\VerifyEmailController</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Models/User.php.html#24">App\Models\User</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#21">App\Services\TaskService</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Livewire/Settings/Profile.php.html#13">App\Livewire\Settings\Profile</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="Http/Resources/BulkOperationResource.php.html#41">App\Http\Resources\BulkOperationResource</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Models/Task.php.html#20">App\Models\Task</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#22">App\Http\Controllers\Api\TagController</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Http/Resources/MessageResource.php.html#10">App\Http\Resources\MessageResource</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Services/InputSanitizationService.php.html#7">App\Services\InputSanitizationService</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#13">App\Enums\TaskLogOperation</a></td><td class="text-right">0.0%</td><td class="text-right">42</td><td class="text-right">1806</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#13">App\Enums\BulkAction</a></td><td class="text-right">2.4%</td><td class="text-right">24</td><td class="text-right">558</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#13">App\Enums\TaskPriority</a></td><td class="text-right">2.9%</td><td class="text-right">21</td><td class="text-right">424</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#13">App\Enums\UserRole</a></td><td class="text-right">2.5%</td><td class="text-right">17</td><td class="text-right">284</td></tr>
+       <tr><td><a href="Models/TaskLog.php.html#14">App\Models\TaskLog</a></td><td class="text-right">49.0%</td><td class="text-right">37</td><td class="text-right">218</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#21">App\Services\TaskService</a></td><td class="text-right">75.3%</td><td class="text-right">71</td><td class="text-right">146</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#13">App\Enums\TaskStatus</a></td><td class="text-right">4.8%</td><td class="text-right">12</td><td class="text-right">136</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#12">App\Services\TaskFilterService</a></td><td class="text-right">70.5%</td><td class="text-right">51</td><td class="text-right">117</td></tr>
+       <tr><td><a href="DTO/BulkTaskData.php.html#18">App\DTO\BulkTaskData</a></td><td class="text-right">58.3%</td><td class="text-right">27</td><td class="text-right">79</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#30">App\Http\Controllers\Api\TaskController</a></td><td class="text-right">68.5%</td><td class="text-right">35</td><td class="text-right">73</td></tr>
+       <tr><td><a href="DTO/TaskData.php.html#12">App\DTO\TaskData</a></td><td class="text-right">73.0%</td><td class="text-right">33</td><td class="text-right">54</td></tr>
+       <tr><td><a href="Rules/ValidMetadata.php.html#10">App\Rules\ValidMetadata</a></td><td class="text-right">64.3%</td><td class="text-right">22</td><td class="text-right">44</td></tr>
+       <tr><td><a href="Http/Resources/TaskCollection.php.html#10">App\Http\Resources\TaskCollection</a></td><td class="text-right">0.0%</td><td class="text-right">5</td><td class="text-right">30</td></tr>
+       <tr><td><a href="Livewire/Auth/Login.php.html#17">App\Livewire\Auth\Login</a></td><td class="text-right">0.0%</td><td class="text-right">5</td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#22">App\Http\Controllers\Api\TagController</a></td><td class="text-right">85.3%</td><td class="text-right">27</td><td class="text-right">29</td></tr>
+       <tr><td><a href="DTO/ApiResponseData.php.html#7">App\DTO\ApiResponseData</a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Resources/TagCollection.php.html#10">App\Http\Resources\TagCollection</a></td><td class="text-right">54.1%</td><td class="text-right">10</td><td class="text-right">19</td></tr>
+       <tr><td><a href="Services/CacheService.php.html#11">App\Services\CacheService</a></td><td class="text-right">36.4%</td><td class="text-right">7</td><td class="text-right">19</td></tr>
+       <tr><td><a href="Http/Resources/BulkOperationResource.php.html#41">App\Http\Resources\BulkOperationResource</a></td><td class="text-right">82.6%</td><td class="text-right">17</td><td class="text-right">18</td></tr>
+       <tr><td><a href="Services/InputSanitizationService.php.html#7">App\Services\InputSanitizationService</a></td><td class="text-right">88.1%</td><td class="text-right">15</td><td class="text-right">15</td></tr>
+       <tr><td><a href="Livewire/Auth/VerifyEmail.php.html#13">App\Livewire\Auth\VerifyEmail</a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Rules/ValidDueDate.php.html#13">App\Rules\ValidDueDate</a></td><td class="text-right">66.7%</td><td class="text-right">7</td><td class="text-right">8</td></tr>
+       <tr><td><a href="Services/ApiResponseService.php.html#11">App\Services\ApiResponseService</a></td><td class="text-right">52.9%</td><td class="text-right">5</td><td class="text-right">7</td></tr>
+       <tr><td><a href="Livewire/Settings/Profile.php.html#13">App\Livewire\Settings\Profile</a></td><td class="text-right">76.0%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Http/Resources/MessageResource.php.html#10">App\Http\Resources\MessageResource</a></td><td class="text-right">87.5%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerifyEmailController.php.html#11">App\Http\Controllers\Auth\VerifyEmailController</a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DTO/ApiResponseData.php.html#9"><abbr title="App\DTO\ApiResponseData::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DTO/ApiResponseData.php.html#16"><abbr title="App\DTO\ApiResponseData::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DTO/BulkTaskData.php.html#78"><abbr title="App\DTO\BulkTaskData::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DTO/TaskData.php.html#105"><abbr title="App\DTO\TaskData::hasMetadata">hasMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#22"><abbr title="App\Enums\BulkAction::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#34"><abbr title="App\Enums\BulkAction::color">color</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#46"><abbr title="App\Enums\BulkAction::icon">icon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#58"><abbr title="App\Enums\BulkAction::requiresStatus">requiresStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#66"><abbr title="App\Enums\BulkAction::isDestructive">isDestructive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#77"><abbr title="App\Enums\BulkAction::isReversible">isReversible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#89"><abbr title="App\Enums\BulkAction::requiresVersionCheck">requiresVersionCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#105"><abbr title="App\Enums\BulkAction::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#125"><abbr title="App\Enums\BulkAction::fromString">fromString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#24"><abbr title="App\Enums\TaskLogOperation::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#38"><abbr title="App\Enums\TaskLogOperation::pastTense">pastTense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#52"><abbr title="App\Enums\TaskLogOperation::color">color</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#66"><abbr title="App\Enums\TaskLogOperation::icon">icon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#80"><abbr title="App\Enums\TaskLogOperation::isDestructive">isDestructive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#91"><abbr title="App\Enums\TaskLogOperation::isReversible">isReversible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#105"><abbr title="App\Enums\TaskLogOperation::severity">severity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#119"><abbr title="App\Enums\TaskLogOperation::values">values</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#127"><abbr title="App\Enums\TaskLogOperation::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#147"><abbr title="App\Enums\TaskLogOperation::fromString">fromString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#22"><abbr title="App\Enums\TaskPriority::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#34"><abbr title="App\Enums\TaskPriority::color">color</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#46"><abbr title="App\Enums\TaskPriority::sortOrder">sortOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#58"><abbr title="App\Enums\TaskPriority::icon">icon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#78"><abbr title="App\Enums\TaskPriority::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#95"><abbr title="App\Enums\TaskPriority::fromString">fromString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#103"><abbr title="App\Enums\TaskPriority::default">default</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#112"><abbr title="App\Enums\TaskPriority::compareTo">compareTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#22"><abbr title="App\Enums\TaskStatus::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#34"><abbr title="App\Enums\TaskStatus::color">color</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#46"><abbr title="App\Enums\TaskStatus::isActive">isActive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#62"><abbr title="App\Enums\TaskStatus::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#77"><abbr title="App\Enums\TaskStatus::fromString">fromString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#21"><abbr title="App\Enums\UserRole::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#32"><abbr title="App\Enums\UserRole::color">color</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#43"><abbr title="App\Enums\UserRole::level">level</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#54"><abbr title="App\Enums\UserRole::permissions">permissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#84"><abbr title="App\Enums\UserRole::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#100"><abbr title="App\Enums\UserRole::fromString">fromString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#108"><abbr title="App\Enums\UserRole::default">default</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#117"><abbr title="App\Enums\UserRole::compareTo">compareTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/TaskBulkOperationException.php.html#17"><abbr title="App\Exceptions\TaskBulkOperationException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/TaskBulkOperationException.php.html#31"><abbr title="App\Exceptions\TaskBulkOperationException::getErrors">getErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/TaskBulkOperationException.php.html#36"><abbr title="App\Exceptions\TaskBulkOperationException::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/TaskNotDeletedException.php.html#11"><abbr title="App\Exceptions\TaskNotDeletedException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#237"><abbr title="App\Http\Controllers\Api\TaskController::restore">restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#321"><abbr title="App\Http\Controllers\Api\TaskController::clearTaskCaches">clearTaskCaches</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Resources/TaskCollection.php.html#15"><abbr title="App\Http\Resources\TaskCollection::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Resources/TaskCollection.php.html#50"><abbr title="App\Http\Resources\TaskCollection::getStatusCounts">getStatusCounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Resources/TaskCollection.php.html#63"><abbr title="App\Http\Resources\TaskCollection::getPriorityCounts">getPriorityCounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Auth/Login.php.html#31"><abbr title="App\Livewire\Auth\Login::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Auth/Login.php.html#54"><abbr title="App\Livewire\Auth\Login::ensureIsNotRateLimited">ensureIsNotRateLimited</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Auth/Login.php.html#75"><abbr title="App\Livewire\Auth\Login::throttleKey">throttleKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Auth/VerifyEmail.php.html#19"><abbr title="App\Livewire\Auth\VerifyEmail::sendVerification">sendVerification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Auth/VerifyEmail.php.html#35"><abbr title="App\Livewire\Auth\VerifyEmail::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Livewire/Settings/Profile.php.html#62"><abbr title="App\Livewire\Settings\Profile::resendVerificationNotification">resendVerificationNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Tag.php.html#26"><abbr title="App\Models\Tag::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Task.php.html#74"><abbr title="App\Models\Task::creator">creator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/TaskLog.php.html#56"><abbr title="App\Models\TaskLog::task">task</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/TaskLog.php.html#123"><abbr title="App\Models\TaskLog::getFieldLabel">getFieldLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/TaskLog.php.html#141"><abbr title="App\Models\TaskLog::formatFieldValue">formatFieldValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#66"><abbr title="App\Models\User::createdTasks">createdTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#71"><abbr title="App\Models\User::assignedTasks">assignedTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#76"><abbr title="App\Models\User::taskLogs">taskLogs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#87"><abbr title="App\Models\User::getRoleLabel">getRoleLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/ApiResponseService.php.html#31"><abbr title="App\Services\ApiResponseService::success">success</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/InputSanitizationService.php.html#69"><abbr title="App\Services\InputSanitizationService::checkRateLimit">checkRateLimit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#258"><abbr title="App\Services\TaskFilterService::shouldUseAggressiveCaching">shouldUseAggressiveCaching</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#215"><abbr title="App\Services\TaskService::restoreTask">restoreTask</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/CacheService.php.html#38"><abbr title="App\Services\CacheService::clearAllUserStats">clearAllUserStats</abbr></a></td><td class="text-right">18%</td></tr>
+       <tr><td><a href="DTO/TaskData.php.html#115"><abbr title="App\DTO\TaskData::validate">validate</abbr></a></td><td class="text-right">36%</td></tr>
+       <tr><td><a href="DTO/BulkTaskData.php.html#126"><abbr title="App\DTO\BulkTaskData::validate">validate</abbr></a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#175"><abbr title="App\Services\TaskFilterService::applySorting">applySorting</abbr></a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#262"><abbr title="App\Http\Controllers\Api\TaskController::bulk">bulk</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/Resources/TagCollection.php.html#15"><abbr title="App\Http\Resources\TagCollection::toArray">toArray</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Rules/ValidMetadata.php.html#17"><abbr title="App\Rules\ValidMetadata::validate">validate</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#70"><abbr title="App\Http\Controllers\Api\TaskController::index">index</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Http/Resources/TagCollection.php.html#49"><abbr title="App\Http\Resources\TagCollection::getMostUsedTags">getMostUsedTags</abbr></a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#511"><abbr title="App\Services\TaskService::performBulkOperation">performBulkOperation</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Rules/ValidDueDate.php.html#32"><abbr title="App\Rules\ValidDueDate::validate">validate</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Http/Resources/BulkOperationResource.php.html#88"><abbr title="App\Http\Resources\BulkOperationResource::calculateSuccessRate">calculateSuccessRate</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Resources/BulkOperationResource.php.html#100"><abbr title="App\Http\Resources\BulkOperationResource::generateErrorSummary">generateErrorSummary</abbr></a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#159"><abbr title="App\Services\TaskService::toggleTaskStatus">toggleTaskStatus</abbr></a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Rules/ValidMetadata.php.html#72"><abbr title="App\Rules\ValidMetadata::isValidValueType">isValidValueType</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#20"><abbr title="App\Services\TaskFilterService::applyFilters">applyFilters</abbr></a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#182"><abbr title="App\Http\Controllers\Api\TaskController::destroy">destroy</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerifyEmailController.php.html#16"><abbr title="App\Http\Controllers\Auth\VerifyEmailController::__invoke">__invoke</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Services/CacheService.php.html#20"><abbr title="App\Services\CacheService::clearUserStats">clearUserStats</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#94"><abbr title="App\Services\TaskService::updateTask">updateTask</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#432"><abbr title="App\Services\TaskService::processBulkChunk">processBulkChunk</abbr></a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#88"><abbr title="App\Http\Controllers\Api\TagController::store">store</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#115"><abbr title="App\Http\Controllers\Api\TaskController::store">store</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#36"><abbr title="App\Http\Controllers\Api\TagController::index">index</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#154"><abbr title="App\Http\Controllers\Api\TagController::destroy">destroy</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Http/Resources/MessageResource.php.html#26"><abbr title="App\Http\Resources\MessageResource::toArray">toArray</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#202"><abbr title="App\Http\Controllers\Api\TaskController::toggleStatus">toggleStatus</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#129"><abbr title="App\Http\Controllers\Api\TagController::update">update</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#156"><abbr title="App\Http\Controllers\Api\TaskController::update">update</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#52"><abbr title="App\Services\TaskService::createTask">createTask</abbr></a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/UserController.php.html#20"><abbr title="App\Http\Controllers\Api\UserController::updateRole">updateRole</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Models/TaskLog.php.html#123"><abbr title="App\Models\TaskLog::getFieldLabel">getFieldLabel</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">13</td><td class="text-right">182</td></tr>
+       <tr><td><a href="Models/TaskLog.php.html#141"><abbr title="App\Models\TaskLog::formatFieldValue">formatFieldValue</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">13</td><td class="text-right">182</td></tr>
+       <tr><td><a href="DTO/TaskData.php.html#115"><abbr title="App\DTO\TaskData::validate">validate</abbr></a></td><td class="text-right">36.4%</td><td class="text-right">15</td><td class="text-right">72</td></tr>
+       <tr><td><a href="DTO/BulkTaskData.php.html#126"><abbr title="App\DTO\BulkTaskData::validate">validate</abbr></a></td><td class="text-right">46.2%</td><td class="text-right">17</td><td class="text-right">62</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#24"><abbr title="App\Enums\TaskLogOperation::label">label</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#38"><abbr title="App\Enums\TaskLogOperation::pastTense">pastTense</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#52"><abbr title="App\Enums\TaskLogOperation::color">color</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#66"><abbr title="App\Enums\TaskLogOperation::icon">icon</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#91"><abbr title="App\Enums\TaskLogOperation::isReversible">isReversible</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#105"><abbr title="App\Enums\TaskLogOperation::severity">severity</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#20"><abbr title="App\Services\TaskFilterService::applyFilters">applyFilters</abbr></a></td><td class="text-right">73.6%</td><td class="text-right">28</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#258"><abbr title="App\Services\TaskFilterService::shouldUseAggressiveCaching">shouldUseAggressiveCaching</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">5</td><td class="text-right">30</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#215"><abbr title="App\Services\TaskService::restoreTask">restoreTask</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">5</td><td class="text-right">30</td></tr>
+       <tr><td><a href="Rules/ValidMetadata.php.html#17"><abbr title="App\Rules\ValidMetadata::validate">validate</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">10</td><td class="text-right">22</td></tr>
+       <tr><td><a href="Services/TaskFilterService.php.html#175"><abbr title="App\Services\TaskFilterService::applySorting">applySorting</abbr></a></td><td class="text-right">47.1%</td><td class="text-right">9</td><td class="text-right">21</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#22"><abbr title="App\Enums\BulkAction::label">label</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#34"><abbr title="App\Enums\BulkAction::color">color</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#46"><abbr title="App\Enums\BulkAction::icon">icon</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#77"><abbr title="App\Enums\BulkAction::isReversible">isReversible</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#22"><abbr title="App\Enums\TaskPriority::label">label</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#34"><abbr title="App\Enums\TaskPriority::color">color</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#46"><abbr title="App\Enums\TaskPriority::sortOrder">sortOrder</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/TaskPriority.php.html#58"><abbr title="App\Enums\TaskPriority::icon">icon</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#22"><abbr title="App\Enums\TaskStatus::label">label</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Enums/TaskStatus.php.html#34"><abbr title="App\Enums\TaskStatus::color">color</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#432"><abbr title="App\Services\TaskService::processBulkChunk">processBulkChunk</abbr></a></td><td class="text-right">79.4%</td><td class="text-right">12</td><td class="text-right">13</td></tr>
+       <tr><td><a href="DTO/ApiResponseData.php.html#16"><abbr title="App\DTO\ApiResponseData::toArray">toArray</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Enums/BulkAction.php.html#66"><abbr title="App\Enums\BulkAction::isDestructive">isDestructive</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Enums/TaskLogOperation.php.html#80"><abbr title="App\Enums\TaskLogOperation::isDestructive">isDestructive</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#21"><abbr title="App\Enums\UserRole::label">label</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#32"><abbr title="App\Enums\UserRole::color">color</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#43"><abbr title="App\Enums\UserRole::level">level</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Enums/UserRole.php.html#54"><abbr title="App\Enums\UserRole::permissions">permissions</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#36"><abbr title="App\Http\Controllers\Api\TagController::index">index</abbr></a></td><td class="text-right">82.6%</td><td class="text-right">12</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#237"><abbr title="App\Http\Controllers\Api\TaskController::restore">restore</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#321"><abbr title="App\Http\Controllers\Api\TaskController::clearTaskCaches">clearTaskCaches</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Resources/TaskCollection.php.html#15"><abbr title="App\Http\Resources\TaskCollection::toArray">toArray</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Services/CacheService.php.html#38"><abbr title="App\Services\CacheService::clearAllUserStats">clearAllUserStats</abbr></a></td><td class="text-right">18.8%</td><td class="text-right">4</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Resources/BulkOperationResource.php.html#100"><abbr title="App\Http\Resources\BulkOperationResource::generateErrorSummary">generateErrorSummary</abbr></a></td><td class="text-right">68.4%</td><td class="text-right">9</td><td class="text-right">11</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#511"><abbr title="App\Services\TaskService::performBulkOperation">performBulkOperation</abbr></a></td><td class="text-right">61.9%</td><td class="text-right">8</td><td class="text-right">11</td></tr>
+       <tr><td><a href="Http/Resources/TagCollection.php.html#49"><abbr title="App\Http\Resources\TagCollection::getMostUsedTags">getMostUsedTags</abbr></a></td><td class="text-right">58.8%</td><td class="text-right">7</td><td class="text-right">10</td></tr>
+       <tr><td><a href="Rules/ValidMetadata.php.html#72"><abbr title="App\Rules\ValidMetadata::isValidValueType">isValidValueType</abbr></a></td><td class="text-right">71.4%</td><td class="text-right">9</td><td class="text-right">10</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#94"><abbr title="App\Services\TaskService::updateTask">updateTask</abbr></a></td><td class="text-right">78.1%</td><td class="text-right">8</td><td class="text-right">8</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#159"><abbr title="App\Services\TaskService::toggleTaskStatus">toggleTaskStatus</abbr></a></td><td class="text-right">68.8%</td><td class="text-right">7</td><td class="text-right">8</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#70"><abbr title="App\Http\Controllers\Api\TaskController::index">index</abbr></a></td><td class="text-right">55.6%</td><td class="text-right">5</td><td class="text-right">7</td></tr>
+       <tr><td><a href="Rules/ValidDueDate.php.html#32"><abbr title="App\Rules\ValidDueDate::validate">validate</abbr></a></td><td class="text-right">62.5%</td><td class="text-right">6</td><td class="text-right">7</td></tr>
+       <tr><td><a href="Services/TaskService.php.html#52"><abbr title="App\Services\TaskService::createTask">createTask</abbr></a></td><td class="text-right">86.7%</td><td class="text-right">7</td><td class="text-right">7</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#202"><abbr title="App\Http\Controllers\Api\TaskController::toggleStatus">toggleStatus</abbr></a></td><td class="text-right">84.2%</td><td class="text-right">6</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#262"><abbr title="App\Http\Controllers\Api\TaskController::bulk">bulk</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">4</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Livewire/Auth/Login.php.html#31"><abbr title="App\Livewire\Auth\Login::login">login</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Livewire/Auth/Login.php.html#54"><abbr title="App\Livewire\Auth\Login::ensureIsNotRateLimited">ensureIsNotRateLimited</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Livewire/Auth/VerifyEmail.php.html#19"><abbr title="App\Livewire\Auth\VerifyEmail::sendVerification">sendVerification</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Livewire/Settings/Profile.php.html#62"><abbr title="App\Livewire\Settings\Profile::resendVerificationNotification">resendVerificationNotification</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Services/ApiResponseService.php.html#31"><abbr title="App\Services\ApiResponseService::success">success</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Services/InputSanitizationService.php.html#69"><abbr title="App\Services\InputSanitizationService::checkRateLimit">checkRateLimit</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#154"><abbr title="App\Http\Controllers\Api\TagController::destroy">destroy</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#129"><abbr title="App\Http\Controllers\Api\TagController::update">update</abbr></a></td><td class="text-right">84.6%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Http/Resources/TagCollection.php.html#15"><abbr title="App\Http\Resources\TagCollection::toArray">toArray</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">3</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TagController.php.html#88"><abbr title="App\Http\Controllers\Api\TagController::store">store</abbr></a></td><td class="text-right">81.8%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#156"><abbr title="App\Http\Controllers\Api\TaskController::update">update</abbr></a></td><td class="text-right">84.6%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#182"><abbr title="App\Http\Controllers\Api\TaskController::destroy">destroy</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/Api/TaskController.php.html#115"><abbr title="App\Http\Controllers\Api\TaskController::store">store</abbr></a></td><td class="text-right">81.8%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Controllers/Api/UserController.php.html#20"><abbr title="App\Http\Controllers\Api\UserController::updateRole">updateRole</abbr></a></td><td class="text-right">87.5%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerifyEmailController.php.html#16"><abbr title="App\Http\Controllers\Auth\VerifyEmailController::__invoke">__invoke</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Resources/BulkOperationResource.php.html#88"><abbr title="App\Http\Resources\BulkOperationResource::calculateSuccessRate">calculateSuccessRate</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Resources/MessageResource.php.html#26"><abbr title="App\Http\Resources\MessageResource::toArray">toArray</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Services/CacheService.php.html#20"><abbr title="App\Services\CacheService::clearUserStats">clearUserStats</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.3.7</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.25</a> and <a href="https://phpunit.de/">PHPUnit 12.3.8</a> at Sat Sep 20 9:06:38 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/billboard.pkgd.min.js?v=12.3.7" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,4,"DTO\/ApiResponseData.php.html#7","App\\DTO\\ApiResponseData","20"],[0,42,"Enums\/TaskLogOperation.php.html#13","App\\Enums\\TaskLogOperation","1806"],[0,3,"Exceptions\/TaskBulkOperationException.php.html#9","App\\Exceptions\\TaskBulkOperationException","12"],[0,1,"Exceptions\/TaskNotDeletedException.php.html#9","App\\Exceptions\\TaskNotDeletedException","2"],[0,5,"Http\/Resources\/TaskCollection.php.html#10","App\\Http\\Resources\\TaskCollection","30"],[0,5,"Livewire\/Auth\/Login.php.html#17","App\\Livewire\\Auth\\Login","30"],[0,3,"Livewire\/Auth\/VerifyEmail.php.html#13","App\\Livewire\\Auth\\VerifyEmail","12"],[2.4390243902439024,24,"Enums\/BulkAction.php.html#13","App\\Enums\\BulkAction","558.87"],[2.5,17,"Enums\/UserRole.php.html#13","App\\Enums\\UserRole","284.86"],[2.941176470588235,21,"Enums\/TaskPriority.php.html#13","App\\Enums\\TaskPriority","424.22"],[4.761904761904762,12,"Enums\/TaskStatus.php.html#13","App\\Enums\\TaskStatus","136.39"],[20,2,"Models\/Tag.php.html#11","App\\Models\\Tag","4.05"],[36.36363636363637,7,"Services\/CacheService.php.html#11","App\\Services\\CacheService","19.63"],[49.01960784313725,37,"Models\/TaskLog.php.html#14","App\\Models\\TaskLog","218.39"],[52.94117647058824,5,"Services\/ApiResponseService.php.html#11","App\\Services\\ApiResponseService","7.61"],[54.054054054054056,10,"Http\/Resources\/TagCollection.php.html#10","App\\Http\\Resources\\TagCollection","19.70"],[58.333333333333336,27,"DTO\/BulkTaskData.php.html#18","App\\DTO\\BulkTaskData","79.73"],[64.28571428571429,22,"Rules\/ValidMetadata.php.html#10","App\\Rules\\ValidMetadata","44.05"],[66.66666666666666,7,"Rules\/ValidDueDate.php.html#13","App\\Rules\\ValidDueDate","8.81"],[68.54838709677419,35,"Http\/Controllers\/Api\/TaskController.php.html#30","App\\Http\\Controllers\\Api\\TaskController","73.11"],[70.53571428571429,51,"Services\/TaskFilterService.php.html#12","App\\Services\\TaskFilterService","117.53"],[73.01587301587301,33,"DTO\/TaskData.php.html#12","App\\DTO\\TaskData","54.40"],[75,2,"Http\/Controllers\/Auth\/VerifyEmailController.php.html#11","App\\Http\\Controllers\\Auth\\VerifyEmailController","2.06"],[75,8,"Models\/User.php.html#24","App\\Models\\User","9.00"],[75.34246575342466,71,"Services\/TaskService.php.html#21","App\\Services\\TaskService","146.57"],[76,5,"Livewire\/Settings\/Profile.php.html#13","App\\Livewire\\Settings\\Profile","5.35"],[82.6086956521739,17,"Http\/Resources\/BulkOperationResource.php.html#41","App\\Http\\Resources\\BulkOperationResource","18.52"],[83.33333333333334,6,"Models\/Task.php.html#20","App\\Models\\Task","6.17"],[85.29411764705883,27,"Http\/Controllers\/Api\/TagController.php.html#22","App\\Http\\Controllers\\Api\\TagController","29.32"],[87.5,3,"Http\/Resources\/MessageResource.php.html#10","App\\Http\\Resources\\MessageResource","3.02"],[88.09523809523809,15,"Services\/InputSanitizationService.php.html#7","App\\Services\\InputSanitizationService","15.38"],[90.9090909090909,3,"Livewire\/Auth\/ResetPassword.php.html#17","App\\Livewire\\Auth\\ResetPassword","3.01"],[93.33333333333333,3,"Http\/Controllers\/Api\/UserController.php.html#13","App\\Http\\Controllers\\Api\\UserController","3.00"],[100,2,"Exceptions\/TagDeletionException.php.html#9","App\\Exceptions\\TagDeletionException","2"],[100,1,"Exceptions\/TaskConflictException.php.html#9","App\\Exceptions\\TaskConflictException","1"],[100,5,"Http\/Controllers\/Api\/AuthController.php.html#19","App\\Http\\Controllers\\Api\\AuthController","5"],[100,6,"Http\/Controllers\/Api\/BaseApiController.php.html#13","App\\Http\\Controllers\\Api\\BaseApiController","6"],[100,0,"Http\/Controllers\/Controller.php.html#7","App\\Http\\Controllers\\Controller","0"],[100,1,"Http\/Middleware\/ForceCacheControlHeader.php.html#10","App\\Http\\Middleware\\ForceCacheControlHeader","1"],[100,3,"Http\/Requests\/BulkTaskRequest.php.html#11","App\\Http\\Requests\\BulkTaskRequest","3"],[100,3,"Http\/Requests\/FilterTasksRequest.php.html#10","App\\Http\\Requests\\FilterTasksRequest","3"],[100,3,"Http\/Requests\/LoginRequest.php.html#9","App\\Http\\Requests\\LoginRequest","3"],[100,3,"Http\/Requests\/RegisterRequest.php.html#9","App\\Http\\Requests\\RegisterRequest","3"],[100,3,"Http\/Requests\/StoreTagRequest.php.html#9","App\\Http\\Requests\\StoreTagRequest","3"],[100,3,"Http\/Requests\/StoreTaskRequest.php.html#14","App\\Http\\Requests\\StoreTaskRequest","3"],[100,3,"Http\/Requests\/UpdateTagRequest.php.html#10","App\\Http\\Requests\\UpdateTagRequest","3"],[100,3,"Http\/Requests\/UpdateTaskRequest.php.html#14","App\\Http\\Requests\\UpdateTaskRequest","3"],[100,3,"Http\/Requests\/UpdateUserRoleRequest.php.html#11","App\\Http\\Requests\\UpdateUserRoleRequest","3"],[100,1,"Http\/Resources\/TagResource.php.html#21","App\\Http\\Resources\\TagResource","1"],[100,1,"Http\/Resources\/TaskResource.php.html#29","App\\Http\\Resources\\TaskResource","1"],[100,1,"Livewire\/Actions\/Logout.php.html#10","App\\Livewire\\Actions\\Logout","1"],[100,2,"Livewire\/Auth\/ConfirmPassword.php.html#12","App\\Livewire\\Auth\\ConfirmPassword","2"],[100,1,"Livewire\/Auth\/ForgotPassword.php.html#11","App\\Livewire\\Auth\\ForgotPassword","1"],[100,1,"Livewire\/Auth\/Register.php.html#15","App\\Livewire\\Auth\\Register","1"],[100,0,"Livewire\/Settings\/Appearance.php.html#9","App\\Livewire\\Settings\\Appearance","0"],[100,1,"Livewire\/Settings\/DeleteUserForm.php.html#11","App\\Livewire\\Settings\\DeleteUserForm","1"],[100,2,"Livewire\/Settings\/Password.php.html#13","App\\Livewire\\Settings\\Password","2"],[100,10,"Observers\/TaskObserver.php.html#11","App\\Observers\\TaskObserver","10"],[100,9,"Policies\/TagPolicy.php.html#9","App\\Policies\\TagPolicy","9"],[100,20,"Policies\/TaskPolicy.php.html#10","App\\Policies\\TaskPolicy","20"],[100,13,"Policies\/UserPolicy.php.html#9","App\\Policies\\UserPolicy","13"],[100,5,"Providers\/AppServiceProvider.php.html#15","App\\Providers\\AppServiceProvider","5"],[100,5,"Rules\/ValidTaskAssignment.php.html#13","App\\Rules\\ValidTaskAssignment","5"],[100,4,"Services\/TagService.php.html#10","App\\Services\\TagService","4"],[100,3,"Services\/TaskBulkOperationService.php.html#11","App\\Services\\TaskBulkOperationService","3"],[100,10,"Services\/TaskPaginationService.php.html#13","App\\Services\\TaskPaginationService","10"]]</script>
+  <script type="application/json" id="complexity_method">[[0,1,"DTO\/ApiResponseData.php.html#9","App\\DTO\\ApiResponseData::__construct","2"],[0,3,"DTO\/ApiResponseData.php.html#16","App\\DTO\\ApiResponseData::toArray","12"],[0,1,"DTO\/BulkTaskData.php.html#78","App\\DTO\\BulkTaskData::toArray","2"],[0,1,"DTO\/TaskData.php.html#105","App\\DTO\\TaskData::hasMetadata","2"],[0,4,"Enums\/BulkAction.php.html#22","App\\Enums\\BulkAction::label","20"],[0,4,"Enums\/BulkAction.php.html#34","App\\Enums\\BulkAction::color","20"],[0,4,"Enums\/BulkAction.php.html#46","App\\Enums\\BulkAction::icon","20"],[0,1,"Enums\/BulkAction.php.html#58","App\\Enums\\BulkAction::requiresStatus","2"],[0,3,"Enums\/BulkAction.php.html#66","App\\Enums\\BulkAction::isDestructive","12"],[0,4,"Enums\/BulkAction.php.html#77","App\\Enums\\BulkAction::isReversible","20"],[0,1,"Enums\/BulkAction.php.html#89","App\\Enums\\BulkAction::requiresVersionCheck","2"],[0,1,"Enums\/BulkAction.php.html#105","App\\Enums\\BulkAction::options","2"],[0,1,"Enums\/BulkAction.php.html#125","App\\Enums\\BulkAction::fromString","2"],[0,6,"Enums\/TaskLogOperation.php.html#24","App\\Enums\\TaskLogOperation::label","42"],[0,6,"Enums\/TaskLogOperation.php.html#38","App\\Enums\\TaskLogOperation::pastTense","42"],[0,6,"Enums\/TaskLogOperation.php.html#52","App\\Enums\\TaskLogOperation::color","42"],[0,6,"Enums\/TaskLogOperation.php.html#66","App\\Enums\\TaskLogOperation::icon","42"],[0,3,"Enums\/TaskLogOperation.php.html#80","App\\Enums\\TaskLogOperation::isDestructive","12"],[0,6,"Enums\/TaskLogOperation.php.html#91","App\\Enums\\TaskLogOperation::isReversible","42"],[0,6,"Enums\/TaskLogOperation.php.html#105","App\\Enums\\TaskLogOperation::severity","42"],[0,1,"Enums\/TaskLogOperation.php.html#119","App\\Enums\\TaskLogOperation::values","2"],[0,1,"Enums\/TaskLogOperation.php.html#127","App\\Enums\\TaskLogOperation::options","2"],[0,1,"Enums\/TaskLogOperation.php.html#147","App\\Enums\\TaskLogOperation::fromString","2"],[0,4,"Enums\/TaskPriority.php.html#22","App\\Enums\\TaskPriority::label","20"],[0,4,"Enums\/TaskPriority.php.html#34","App\\Enums\\TaskPriority::color","20"],[0,4,"Enums\/TaskPriority.php.html#46","App\\Enums\\TaskPriority::sortOrder","20"],[0,4,"Enums\/TaskPriority.php.html#58","App\\Enums\\TaskPriority::icon","20"],[0,1,"Enums\/TaskPriority.php.html#78","App\\Enums\\TaskPriority::options","2"],[0,1,"Enums\/TaskPriority.php.html#95","App\\Enums\\TaskPriority::fromString","2"],[0,1,"Enums\/TaskPriority.php.html#103","App\\Enums\\TaskPriority::default","2"],[0,1,"Enums\/TaskPriority.php.html#112","App\\Enums\\TaskPriority::compareTo","2"],[0,4,"Enums\/TaskStatus.php.html#22","App\\Enums\\TaskStatus::label","20"],[0,4,"Enums\/TaskStatus.php.html#34","App\\Enums\\TaskStatus::color","20"],[0,1,"Enums\/TaskStatus.php.html#46","App\\Enums\\TaskStatus::isActive","2"],[0,1,"Enums\/TaskStatus.php.html#62","App\\Enums\\TaskStatus::options","2"],[0,1,"Enums\/TaskStatus.php.html#77","App\\Enums\\TaskStatus::fromString","2"],[0,3,"Enums\/UserRole.php.html#21","App\\Enums\\UserRole::label","12"],[0,3,"Enums\/UserRole.php.html#32","App\\Enums\\UserRole::color","12"],[0,3,"Enums\/UserRole.php.html#43","App\\Enums\\UserRole::level","12"],[0,3,"Enums\/UserRole.php.html#54","App\\Enums\\UserRole::permissions","12"],[0,1,"Enums\/UserRole.php.html#84","App\\Enums\\UserRole::options","2"],[0,1,"Enums\/UserRole.php.html#100","App\\Enums\\UserRole::fromString","2"],[0,1,"Enums\/UserRole.php.html#108","App\\Enums\\UserRole::default","2"],[0,1,"Enums\/UserRole.php.html#117","App\\Enums\\UserRole::compareTo","2"],[0,1,"Exceptions\/TaskBulkOperationException.php.html#17","App\\Exceptions\\TaskBulkOperationException::__construct","2"],[0,1,"Exceptions\/TaskBulkOperationException.php.html#31","App\\Exceptions\\TaskBulkOperationException::getErrors","2"],[0,1,"Exceptions\/TaskBulkOperationException.php.html#36","App\\Exceptions\\TaskBulkOperationException::toArray","2"],[0,1,"Exceptions\/TaskNotDeletedException.php.html#11","App\\Exceptions\\TaskNotDeletedException::__construct","2"],[0,3,"Http\/Controllers\/Api\/TaskController.php.html#237","App\\Http\\Controllers\\Api\\TaskController::restore","12"],[0,3,"Http\/Controllers\/Api\/TaskController.php.html#321","App\\Http\\Controllers\\Api\\TaskController::clearTaskCaches","12"],[0,3,"Http\/Resources\/TaskCollection.php.html#15","App\\Http\\Resources\\TaskCollection::toArray","12"],[0,1,"Http\/Resources\/TaskCollection.php.html#50","App\\Http\\Resources\\TaskCollection::getStatusCounts","2"],[0,1,"Http\/Resources\/TaskCollection.php.html#63","App\\Http\\Resources\\TaskCollection::getPriorityCounts","2"],[0,2,"Livewire\/Auth\/Login.php.html#31","App\\Livewire\\Auth\\Login::login","6"],[0,2,"Livewire\/Auth\/Login.php.html#54","App\\Livewire\\Auth\\Login::ensureIsNotRateLimited","6"],[0,1,"Livewire\/Auth\/Login.php.html#75","App\\Livewire\\Auth\\Login::throttleKey","2"],[0,2,"Livewire\/Auth\/VerifyEmail.php.html#19","App\\Livewire\\Auth\\VerifyEmail::sendVerification","6"],[0,1,"Livewire\/Auth\/VerifyEmail.php.html#35","App\\Livewire\\Auth\\VerifyEmail::logout","2"],[0,2,"Livewire\/Settings\/Profile.php.html#62","App\\Livewire\\Settings\\Profile::resendVerificationNotification","6"],[0,1,"Models\/Tag.php.html#26","App\\Models\\Tag::rules","2"],[0,1,"Models\/Task.php.html#74","App\\Models\\Task::creator","2"],[0,1,"Models\/TaskLog.php.html#56","App\\Models\\TaskLog::task","2"],[0,13,"Models\/TaskLog.php.html#123","App\\Models\\TaskLog::getFieldLabel","182"],[0,13,"Models\/TaskLog.php.html#141","App\\Models\\TaskLog::formatFieldValue","182"],[0,1,"Models\/User.php.html#66","App\\Models\\User::createdTasks","2"],[0,1,"Models\/User.php.html#71","App\\Models\\User::assignedTasks","2"],[0,1,"Models\/User.php.html#76","App\\Models\\User::taskLogs","2"],[0,1,"Models\/User.php.html#87","App\\Models\\User::getRoleLabel","2"],[0,2,"Services\/ApiResponseService.php.html#31","App\\Services\\ApiResponseService::success","6"],[0,2,"Services\/InputSanitizationService.php.html#69","App\\Services\\InputSanitizationService::checkRateLimit","6"],[0,5,"Services\/TaskFilterService.php.html#258","App\\Services\\TaskFilterService::shouldUseAggressiveCaching","30"],[0,5,"Services\/TaskService.php.html#215","App\\Services\\TaskService::restoreTask","30"],[18.75,4,"Services\/CacheService.php.html#38","App\\Services\\CacheService::clearAllUserStats","12.58"],[36.36363636363637,15,"DTO\/TaskData.php.html#115","App\\DTO\\TaskData::validate","72.98"],[46.15384615384615,17,"DTO\/BulkTaskData.php.html#126","App\\DTO\\BulkTaskData::validate","62.12"],[47.05882352941176,9,"Services\/TaskFilterService.php.html#175","App\\Services\\TaskFilterService::applySorting","21.02"],[50,4,"Http\/Controllers\/Api\/TaskController.php.html#262","App\\Http\\Controllers\\Api\\TaskController::bulk","6.00"],[50,3,"Http\/Resources\/TagCollection.php.html#15","App\\Http\\Resources\\TagCollection::toArray","4.12"],[50,10,"Rules\/ValidMetadata.php.html#17","App\\Rules\\ValidMetadata::validate","22.50"],[55.55555555555556,5,"Http\/Controllers\/Api\/TaskController.php.html#70","App\\Http\\Controllers\\Api\\TaskController::index","7.19"],[58.82352941176471,7,"Http\/Resources\/TagCollection.php.html#49","App\\Http\\Resources\\TagCollection::getMostUsedTags","10.42"],[61.904761904761905,8,"Services\/TaskService.php.html#511","App\\Services\\TaskService::performBulkOperation","11.54"],[62.5,6,"Rules\/ValidDueDate.php.html#32","App\\Rules\\ValidDueDate::validate","7.90"],[66.66666666666666,2,"Http\/Resources\/BulkOperationResource.php.html#88","App\\Http\\Resources\\BulkOperationResource::calculateSuccessRate","2.15"],[68.42105263157895,9,"Http\/Resources\/BulkOperationResource.php.html#100","App\\Http\\Resources\\BulkOperationResource::generateErrorSummary","11.55"],[68.75,7,"Services\/TaskService.php.html#159","App\\Services\\TaskService::toggleTaskStatus","8.50"],[71.42857142857143,9,"Rules\/ValidMetadata.php.html#72","App\\Rules\\ValidMetadata::isValidValueType","10.89"],[73.61111111111111,28,"Services\/TaskFilterService.php.html#20","App\\Services\\TaskFilterService::applyFilters","42.41"],[75,3,"Http\/Controllers\/Api\/TaskController.php.html#182","App\\Http\\Controllers\\Api\\TaskController::destroy","3.14"],[75,2,"Http\/Controllers\/Auth\/VerifyEmailController.php.html#16","App\\Http\\Controllers\\Auth\\VerifyEmailController::__invoke","2.06"],[75,2,"Services\/CacheService.php.html#20","App\\Services\\CacheService::clearUserStats","2.06"],[78.125,8,"Services\/TaskService.php.html#94","App\\Services\\TaskService::updateTask","8.67"],[79.41176470588235,12,"Services\/TaskService.php.html#432","App\\Services\\TaskService::processBulkChunk","13.26"],[81.81818181818183,3,"Http\/Controllers\/Api\/TagController.php.html#88","App\\Http\\Controllers\\Api\\TagController::store","3.05"],[81.81818181818183,2,"Http\/Controllers\/Api\/TaskController.php.html#115","App\\Http\\Controllers\\Api\\TaskController::store","2.02"],[82.6086956521739,12,"Http\/Controllers\/Api\/TagController.php.html#36","App\\Http\\Controllers\\Api\\TagController::index","12.76"],[83.33333333333334,5,"Http\/Controllers\/Api\/TagController.php.html#154","App\\Http\\Controllers\\Api\\TagController::destroy","5.12"],[83.33333333333334,2,"Http\/Resources\/MessageResource.php.html#26","App\\Http\\Resources\\MessageResource::toArray","2.02"],[84.21052631578947,6,"Http\/Controllers\/Api\/TaskController.php.html#202","App\\Http\\Controllers\\Api\\TaskController::toggleStatus","6.14"],[84.61538461538461,4,"Http\/Controllers\/Api\/TagController.php.html#129","App\\Http\\Controllers\\Api\\TagController::update","4.06"],[84.61538461538461,3,"Http\/Controllers\/Api\/TaskController.php.html#156","App\\Http\\Controllers\\Api\\TaskController::update","3.03"],[86.66666666666667,7,"Services\/TaskService.php.html#52","App\\Services\\TaskService::createTask","7.12"],[87.5,2,"Http\/Controllers\/Api\/UserController.php.html#20","App\\Http\\Controllers\\Api\\UserController::updateRole","2.01"],[90,2,"Livewire\/Auth\/ResetPassword.php.html#42","App\\Livewire\\Auth\\ResetPassword::resetPassword","2.00"],[90.19607843137256,11,"Services\/TaskService.php.html#288","App\\Services\\TaskService::bulkOperation","11.11"],[94.44444444444444,5,"DTO\/TaskData.php.html#39","App\\DTO\\TaskData::fromArray","5.00"],[94.44444444444444,9,"DTO\/TaskData.php.html#69","App\\DTO\\TaskData::toArray","9.01"],[95.83333333333334,6,"Http\/Resources\/BulkOperationResource.php.html#46","App\\Http\\Resources\\BulkOperationResource::toArray","6"],[100,1,"DTO\/BulkTaskData.php.html#42","App\\DTO\\BulkTaskData::__construct","1"],[100,4,"DTO\/BulkTaskData.php.html#56","App\\DTO\\BulkTaskData::fromArray","4"],[100,1,"DTO\/BulkTaskData.php.html#91","App\\DTO\\BulkTaskData::isValidAction","1"],[100,1,"DTO\/BulkTaskData.php.html#99","App\\DTO\\BulkTaskData::hasVersions","1"],[100,2,"DTO\/BulkTaskData.php.html#111","App\\DTO\\BulkTaskData::getVersionForTask","2"],[100,1,"DTO\/TaskData.php.html#26","App\\DTO\\TaskData::__construct","1"],[100,2,"DTO\/TaskData.php.html#170","App\\DTO\\TaskData::isValidDate","2"],[100,1,"Enums\/BulkAction.php.html#97","App\\Enums\\BulkAction::values","1"],[100,1,"Enums\/TaskPriority.php.html#70","App\\Enums\\TaskPriority::values","1"],[100,1,"Enums\/TaskStatus.php.html#54","App\\Enums\\TaskStatus::values","1"],[100,1,"Enums\/UserRole.php.html#76","App\\Enums\\UserRole::values","1"],[100,1,"Exceptions\/TagDeletionException.php.html#13","App\\Exceptions\\TagDeletionException::__construct","1"],[100,1,"Exceptions\/TagDeletionException.php.html#19","App\\Exceptions\\TagDeletionException::toArray","1"],[100,1,"Exceptions\/TaskConflictException.php.html#11","App\\Exceptions\\TaskConflictException::__construct","1"],[100,1,"Http\/Controllers\/Api\/AuthController.php.html#24","App\\Http\\Controllers\\Api\\AuthController::register","1"],[100,2,"Http\/Controllers\/Api\/AuthController.php.html#56","App\\Http\\Controllers\\Api\\AuthController::login","2"],[100,1,"Http\/Controllers\/Api\/AuthController.php.html#84","App\\Http\\Controllers\\Api\\AuthController::me","1"],[100,1,"Http\/Controllers\/Api\/AuthController.php.html#102","App\\Http\\Controllers\\Api\\AuthController::logout","1"],[100,1,"Http\/Controllers\/Api\/BaseApiController.php.html#18","App\\Http\\Controllers\\Api\\BaseApiController::errorResponse","1"],[100,2,"Http\/Controllers\/Api\/BaseApiController.php.html#32","App\\Http\\Controllers\\Api\\BaseApiController::successResponse","2"],[100,2,"Http\/Controllers\/Api\/BaseApiController.php.html#50","App\\Http\\Controllers\\Api\\BaseApiController::dataResponse","2"],[100,1,"Http\/Controllers\/Api\/BaseApiController.php.html#72","App\\Http\\Controllers\\Api\\BaseApiController::getStandardHeaders","1"],[100,1,"Http\/Controllers\/Api\/TagController.php.html#28","App\\Http\\Controllers\\Api\\TagController::__construct","1"],[100,2,"Http\/Controllers\/Api\/TagController.php.html#110","App\\Http\\Controllers\\Api\\TagController::show","2"],[100,1,"Http\/Controllers\/Api\/TaskController.php.html#53","App\\Http\\Controllers\\Api\\TaskController::__construct","1"],[100,3,"Http\/Controllers\/Api\/TaskController.php.html#138","App\\Http\\Controllers\\Api\\TaskController::show","3"],[100,1,"Http\/Controllers\/Api\/TaskController.php.html#286","App\\Http\\Controllers\\Api\\TaskController::loadTaskRelationships","1"],[100,1,"Http\/Controllers\/Api\/TaskController.php.html#294","App\\Http\\Controllers\\Api\\TaskController::generateTaskIndexCacheKey","1"],[100,1,"Http\/Controllers\/Api\/UserController.php.html#42","App\\Http\\Controllers\\Api\\UserController::getRole","1"],[100,1,"Http\/Middleware\/ForceCacheControlHeader.php.html#12","App\\Http\\Middleware\\ForceCacheControlHeader::handle","1"],[100,1,"Http\/Requests\/BulkTaskRequest.php.html#21","App\\Http\\Requests\\BulkTaskRequest::authorize","1"],[100,1,"Http\/Requests\/BulkTaskRequest.php.html#37","App\\Http\\Requests\\BulkTaskRequest::rules","1"],[100,1,"Http\/Requests\/BulkTaskRequest.php.html#52","App\\Http\\Requests\\BulkTaskRequest::messages","1"],[100,1,"Http\/Requests\/FilterTasksRequest.php.html#15","App\\Http\\Requests\\FilterTasksRequest::authorize","1"],[100,1,"Http\/Requests\/FilterTasksRequest.php.html#23","App\\Http\\Requests\\FilterTasksRequest::rules","1"],[100,1,"Http\/Requests\/FilterTasksRequest.php.html#71","App\\Http\\Requests\\FilterTasksRequest::messages","1"],[100,1,"Http\/Requests\/LoginRequest.php.html#14","App\\Http\\Requests\\LoginRequest::authorize","1"],[100,1,"Http\/Requests\/LoginRequest.php.html#22","App\\Http\\Requests\\LoginRequest::rules","1"],[100,1,"Http\/Requests\/LoginRequest.php.html#33","App\\Http\\Requests\\LoginRequest::messages","1"],[100,1,"Http\/Requests\/RegisterRequest.php.html#14","App\\Http\\Requests\\RegisterRequest::authorize","1"],[100,1,"Http\/Requests\/RegisterRequest.php.html#22","App\\Http\\Requests\\RegisterRequest::rules","1"],[100,1,"Http\/Requests\/RegisterRequest.php.html#36","App\\Http\\Requests\\RegisterRequest::messages","1"],[100,1,"Http\/Requests\/StoreTagRequest.php.html#14","App\\Http\\Requests\\StoreTagRequest::authorize","1"],[100,1,"Http\/Requests\/StoreTagRequest.php.html#22","App\\Http\\Requests\\StoreTagRequest::rules","1"],[100,1,"Http\/Requests\/StoreTagRequest.php.html#33","App\\Http\\Requests\\StoreTagRequest::messages","1"],[100,1,"Http\/Requests\/StoreTaskRequest.php.html#19","App\\Http\\Requests\\StoreTaskRequest::authorize","1"],[100,1,"Http\/Requests\/StoreTaskRequest.php.html#27","App\\Http\\Requests\\StoreTaskRequest::rules","1"],[100,1,"Http\/Requests\/StoreTaskRequest.php.html#45","App\\Http\\Requests\\StoreTaskRequest::messages","1"],[100,1,"Http\/Requests\/UpdateTagRequest.php.html#15","App\\Http\\Requests\\UpdateTagRequest::authorize","1"],[100,1,"Http\/Requests\/UpdateTagRequest.php.html#23","App\\Http\\Requests\\UpdateTagRequest::rules","1"],[100,1,"Http\/Requests\/UpdateTagRequest.php.html#41","App\\Http\\Requests\\UpdateTagRequest::messages","1"],[100,1,"Http\/Requests\/UpdateTaskRequest.php.html#19","App\\Http\\Requests\\UpdateTaskRequest::authorize","1"],[100,1,"Http\/Requests\/UpdateTaskRequest.php.html#27","App\\Http\\Requests\\UpdateTaskRequest::rules","1"],[100,1,"Http\/Requests\/UpdateTaskRequest.php.html#46","App\\Http\\Requests\\UpdateTaskRequest::messages","1"],[100,1,"Http\/Requests\/UpdateUserRoleRequest.php.html#16","App\\Http\\Requests\\UpdateUserRoleRequest::authorize","1"],[100,1,"Http\/Requests\/UpdateUserRoleRequest.php.html#24","App\\Http\\Requests\\UpdateUserRoleRequest::rules","1"],[100,1,"Http\/Requests\/UpdateUserRoleRequest.php.html#43","App\\Http\\Requests\\UpdateUserRoleRequest::messages","1"],[100,1,"Http\/Resources\/MessageResource.php.html#17","App\\Http\\Resources\\MessageResource::__construct","1"],[100,1,"Http\/Resources\/TagResource.php.html#26","App\\Http\\Resources\\TagResource::toArray","1"],[100,1,"Http\/Resources\/TaskResource.php.html#34","App\\Http\\Resources\\TaskResource::toArray","1"],[100,1,"Livewire\/Actions\/Logout.php.html#15","App\\Livewire\\Actions\\Logout::__invoke","1"],[100,2,"Livewire\/Auth\/ConfirmPassword.php.html#20","App\\Livewire\\Auth\\ConfirmPassword::confirmPassword","2"],[100,1,"Livewire\/Auth\/ForgotPassword.php.html#19","App\\Livewire\\Auth\\ForgotPassword::sendPasswordResetLink","1"],[100,1,"Livewire\/Auth\/Register.php.html#29","App\\Livewire\\Auth\\Register::register","1"],[100,1,"Livewire\/Auth\/ResetPassword.php.html#32","App\\Livewire\\Auth\\ResetPassword::mount","1"],[100,1,"Livewire\/Settings\/DeleteUserForm.php.html#18","App\\Livewire\\Settings\\DeleteUserForm::deleteUser","1"],[100,2,"Livewire\/Settings\/Password.php.html#24","App\\Livewire\\Settings\\Password::updatePassword","2"],[100,1,"Livewire\/Settings\/Profile.php.html#22","App\\Livewire\\Settings\\Profile::mount","1"],[100,2,"Livewire\/Settings\/Profile.php.html#31","App\\Livewire\\Settings\\Profile::updateProfileInformation","2"],[100,1,"Models\/Tag.php.html#20","App\\Models\\Tag::tasks","1"],[100,1,"Models\/Task.php.html#48","App\\Models\\Task::getStatuses","1"],[100,1,"Models\/Task.php.html#53","App\\Models\\Task::getPriorities","1"],[100,1,"Models\/Task.php.html#59","App\\Models\\Task::assignedUser","1"],[100,1,"Models\/Task.php.html#64","App\\Models\\Task::tags","1"],[100,1,"Models\/Task.php.html#69","App\\Models\\Task::logs","1"],[100,1,"Models\/TaskLog.php.html#61","App\\Models\\TaskLog::user","1"],[100,2,"Models\/TaskLog.php.html#68","App\\Models\\TaskLog::logOperation","2"],[100,1,"Models\/TaskLog.php.html#88","App\\Models\\TaskLog::logCreate","1"],[100,1,"Models\/TaskLog.php.html#93","App\\Models\\TaskLog::logUpdate","1"],[100,1,"Models\/TaskLog.php.html#98","App\\Models\\TaskLog::logDelete","1"],[100,1,"Models\/TaskLog.php.html#103","App\\Models\\TaskLog::logRestore","1"],[100,3,"Models\/TaskLog.php.html#108","App\\Models\\TaskLog::logStatusToggle","3"],[100,1,"Models\/User.php.html#59","App\\Models\\User::getRoles","1"],[100,1,"Models\/User.php.html#82","App\\Models\\User::isAdmin","1"],[100,1,"Models\/User.php.html#95","App\\Models\\User::initials","1"],[100,1,"Models\/User.php.html#109","App\\Models\\User::casts","1"],[100,1,"Observers\/TaskObserver.php.html#16","App\\Observers\\TaskObserver::created","1"],[100,2,"Observers\/TaskObserver.php.html#24","App\\Observers\\TaskObserver::updated","2"],[100,1,"Observers\/TaskObserver.php.html#39","App\\Observers\\TaskObserver::deleting","1"],[100,1,"Observers\/TaskObserver.php.html#47","App\\Observers\\TaskObserver::restored","1"],[100,3,"Observers\/TaskObserver.php.html#55","App\\Observers\\TaskObserver::calculateChanges","3"],[100,2,"Observers\/TaskObserver.php.html#79","App\\Observers\\TaskObserver::getOriginalValues","2"],[100,1,"Policies\/TagPolicy.php.html#14","App\\Policies\\TagPolicy::view","1"],[100,1,"Policies\/TagPolicy.php.html#22","App\\Policies\\TagPolicy::viewAny","1"],[100,1,"Policies\/TagPolicy.php.html#30","App\\Policies\\TagPolicy::create","1"],[100,1,"Policies\/TagPolicy.php.html#38","App\\Policies\\TagPolicy::update","1"],[100,1,"Policies\/TagPolicy.php.html#46","App\\Policies\\TagPolicy::delete","1"],[100,1,"Policies\/TagPolicy.php.html#54","App\\Policies\\TagPolicy::restore","1"],[100,1,"Policies\/TagPolicy.php.html#62","App\\Policies\\TagPolicy::forceDelete","1"],[100,1,"Policies\/TagPolicy.php.html#70","App\\Policies\\TagPolicy::viewWithCounts","1"],[100,1,"Policies\/TagPolicy.php.html#78","App\\Policies\\TagPolicy::viewWithTasks","1"],[100,3,"Policies\/TaskPolicy.php.html#15","App\\Policies\\TaskPolicy::view","3"],[100,1,"Policies\/TaskPolicy.php.html#27","App\\Policies\\TaskPolicy::viewAny","1"],[100,1,"Policies\/TaskPolicy.php.html#35","App\\Policies\\TaskPolicy::create","1"],[100,3,"Policies\/TaskPolicy.php.html#43","App\\Policies\\TaskPolicy::update","3"],[100,3,"Policies\/TaskPolicy.php.html#55","App\\Policies\\TaskPolicy::delete","3"],[100,3,"Policies\/TaskPolicy.php.html#67","App\\Policies\\TaskPolicy::restore","3"],[100,1,"Policies\/TaskPolicy.php.html#79","App\\Policies\\TaskPolicy::forceDelete","1"],[100,1,"Policies\/TaskPolicy.php.html#87","App\\Policies\\TaskPolicy::assign","1"],[100,3,"Policies\/TaskPolicy.php.html#95","App\\Policies\\TaskPolicy::toggleStatus","3"],[100,1,"Policies\/TaskPolicy.php.html#108","App\\Policies\\TaskPolicy::bulk","1"],[100,1,"Policies\/UserPolicy.php.html#14","App\\Policies\\UserPolicy::viewAny","1"],[100,2,"Policies\/UserPolicy.php.html#22","App\\Policies\\UserPolicy::view","2"],[100,1,"Policies\/UserPolicy.php.html#30","App\\Policies\\UserPolicy::create","1"],[100,2,"Policies\/UserPolicy.php.html#38","App\\Policies\\UserPolicy::update","2"],[100,2,"Policies\/UserPolicy.php.html#46","App\\Policies\\UserPolicy::delete","2"],[100,2,"Policies\/UserPolicy.php.html#54","App\\Policies\\UserPolicy::manageRole","2"],[100,1,"Policies\/UserPolicy.php.html#62","App\\Policies\\UserPolicy::restore","1"],[100,2,"Policies\/UserPolicy.php.html#70","App\\Policies\\UserPolicy::forceDelete","2"],[100,1,"Providers\/AppServiceProvider.php.html#28","App\\Providers\\AppServiceProvider::register","1"],[100,1,"Providers\/AppServiceProvider.php.html#33","App\\Providers\\AppServiceProvider::boot","1"],[100,2,"Providers\/AppServiceProvider.php.html#42","App\\Providers\\AppServiceProvider::registerPolicies","2"],[100,1,"Providers\/AppServiceProvider.php.html#52","App\\Providers\\AppServiceProvider::registerObservers","1"],[100,1,"Rules\/ValidDueDate.php.html#22","App\\Rules\\ValidDueDate::__construct","1"],[100,3,"Rules\/ValidMetadata.php.html#112","App\\Rules\\ValidMetadata::getArrayDepth","3"],[100,5,"Rules\/ValidTaskAssignment.php.html#20","App\\Rules\\ValidTaskAssignment::validate","5"],[100,2,"Services\/ApiResponseService.php.html#13","App\\Services\\ApiResponseService::error","2"],[100,1,"Services\/ApiResponseService.php.html#46","App\\Services\\ApiResponseService::getTimestamp","1"],[100,1,"Services\/CacheService.php.html#84","App\\Services\\CacheService::supportsTags","1"],[100,1,"Services\/InputSanitizationService.php.html#12","App\\Services\\InputSanitizationService::sanitizeSearch","1"],[100,3,"Services\/InputSanitizationService.php.html#30","App\\Services\\InputSanitizationService::sanitizeMetadata","3"],[100,1,"Services\/InputSanitizationService.php.html#51","App\\Services\\InputSanitizationService::sanitizeTagName","1"],[100,2,"Services\/InputSanitizationService.php.html#85","App\\Services\\InputSanitizationService::getRateLimitKey","2"],[100,4,"Services\/InputSanitizationService.php.html#97","App\\Services\\InputSanitizationService::validateFileUpload","4"],[100,1,"Services\/InputSanitizationService.php.html#123","App\\Services\\InputSanitizationService::sanitizeOrderBy","1"],[100,1,"Services\/InputSanitizationService.php.html#132","App\\Services\\InputSanitizationService::getSecurityHeaders","1"],[100,1,"Services\/TagService.php.html#15","App\\Services\\TagService::createTag","1"],[100,1,"Services\/TagService.php.html#23","App\\Services\\TagService::updateTag","1"],[100,2,"Services\/TagService.php.html#35","App\\Services\\TagService::deleteTag","2"],[100,1,"Services\/TaskBulkOperationService.php.html#20","App\\Services\\TaskBulkOperationService::__construct","1"],[100,2,"Services\/TaskBulkOperationService.php.html#35","App\\Services\\TaskBulkOperationService::performBulkOperation","2"],[100,4,"Services\/TaskFilterService.php.html#211","App\\Services\\TaskFilterService::getAppliedFilters","4"],[100,5,"Services\/TaskFilterService.php.html#236","App\\Services\\TaskFilterService::optimizeQueryLoading","5"],[100,1,"Services\/TaskPaginationService.php.html#22","App\\Services\\TaskPaginationService::__construct","1"],[100,2,"Services\/TaskPaginationService.php.html#30","App\\Services\\TaskPaginationService::getPaginatedTasks","2"],[100,1,"Services\/TaskPaginationService.php.html#45","App\\Services\\TaskPaginationService::setCachedFlag","1"],[100,1,"Services\/TaskPaginationService.php.html#56","App\\Services\\TaskPaginationService::getPerPageLimit","1"],[100,1,"Services\/TaskPaginationService.php.html#66","App\\Services\\TaskPaginationService::getPaginatedResponse","1"],[100,1,"Services\/TaskPaginationService.php.html#79","App\\Services\\TaskPaginationService::getNonPaginatedResponse","1"],[100,1,"Services\/TaskPaginationService.php.html#91","App\\Services\\TaskPaginationService::buildPaginatedMetadata","1"],[100,1,"Services\/TaskPaginationService.php.html#108","App\\Services\\TaskPaginationService::buildNonPaginatedMetadata","1"],[100,1,"Services\/TaskPaginationService.php.html#121","App\\Services\\TaskPaginationService::buildPaginationLinks","1"],[100,1,"Services\/TaskService.php.html#44","App\\Services\\TaskService::__construct","1"],[100,5,"Services\/TaskService.php.html#369","App\\Services\\TaskService::canPerformTaskAction","5"],[100,4,"Services\/TaskService.php.html#389","App\\Services\\TaskService::executeVersionedUpdate","4"],[100,1,"Services\/TaskService.php.html#591","App\\Services\\TaskService::processBulkDeleteOptimized","1"],[100,1,"Services\/TaskService.php.html#613","App\\Services\\TaskService::processBulkRestoreOptimized","1"],[100,1,"Services\/TaskService.php.html#636","App\\Services\\TaskService::processBulkStatusUpdateOptimized","1"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [7,4,0,1,1,1,3,3,6,5,2,33])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [72,0,1,0,1,2,5,5,7,10,5,158])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>

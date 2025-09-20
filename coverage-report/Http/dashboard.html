@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/gavin/Herd/taskassessment/app/Http</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=12.3.7" rel="stylesheet" type="text/css">
+  <link href="../_css/billboard.min.css?v=12.3.7" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=12.3.7" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/Users/gavin/Herd/taskassessment/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Http</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Resources/TaskCollection.php.html#10">App\Http\Resources\TaskCollection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Resources/TagCollection.php.html#10">App\Http\Resources\TagCollection</a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#30">App\Http\Controllers\Api\TaskController</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Controllers/Auth/VerifyEmailController.php.html#11">App\Http\Controllers\Auth\VerifyEmailController</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Resources/BulkOperationResource.php.html#41">App\Http\Resources\BulkOperationResource</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#22">App\Http\Controllers\Api\TagController</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Resources/MessageResource.php.html#10">App\Http\Resources\MessageResource</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#30">App\Http\Controllers\Api\TaskController</a></td><td class="text-right">68.5%</td><td class="text-right">35</td><td class="text-right">73</td></tr>
+       <tr><td><a href="Resources/TaskCollection.php.html#10">App\Http\Resources\TaskCollection</a></td><td class="text-right">0.0%</td><td class="text-right">5</td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#22">App\Http\Controllers\Api\TagController</a></td><td class="text-right">85.3%</td><td class="text-right">27</td><td class="text-right">29</td></tr>
+       <tr><td><a href="Resources/TagCollection.php.html#10">App\Http\Resources\TagCollection</a></td><td class="text-right">54.1%</td><td class="text-right">10</td><td class="text-right">19</td></tr>
+       <tr><td><a href="Resources/BulkOperationResource.php.html#41">App\Http\Resources\BulkOperationResource</a></td><td class="text-right">82.6%</td><td class="text-right">17</td><td class="text-right">18</td></tr>
+       <tr><td><a href="Resources/MessageResource.php.html#10">App\Http\Resources\MessageResource</a></td><td class="text-right">87.5%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/Auth/VerifyEmailController.php.html#11">App\Http\Controllers\Auth\VerifyEmailController</a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#237"><abbr title="App\Http\Controllers\Api\TaskController::restore">restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#321"><abbr title="App\Http\Controllers\Api\TaskController::clearTaskCaches">clearTaskCaches</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Resources/TaskCollection.php.html#15"><abbr title="App\Http\Resources\TaskCollection::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Resources/TaskCollection.php.html#50"><abbr title="App\Http\Resources\TaskCollection::getStatusCounts">getStatusCounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Resources/TaskCollection.php.html#63"><abbr title="App\Http\Resources\TaskCollection::getPriorityCounts">getPriorityCounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#262"><abbr title="App\Http\Controllers\Api\TaskController::bulk">bulk</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Resources/TagCollection.php.html#15"><abbr title="App\Http\Resources\TagCollection::toArray">toArray</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#70"><abbr title="App\Http\Controllers\Api\TaskController::index">index</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Resources/TagCollection.php.html#49"><abbr title="App\Http\Resources\TagCollection::getMostUsedTags">getMostUsedTags</abbr></a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Resources/BulkOperationResource.php.html#88"><abbr title="App\Http\Resources\BulkOperationResource::calculateSuccessRate">calculateSuccessRate</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Resources/BulkOperationResource.php.html#100"><abbr title="App\Http\Resources\BulkOperationResource::generateErrorSummary">generateErrorSummary</abbr></a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#182"><abbr title="App\Http\Controllers\Api\TaskController::destroy">destroy</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Controllers/Auth/VerifyEmailController.php.html#16"><abbr title="App\Http\Controllers\Auth\VerifyEmailController::__invoke">__invoke</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#88"><abbr title="App\Http\Controllers\Api\TagController::store">store</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#115"><abbr title="App\Http\Controllers\Api\TaskController::store">store</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#36"><abbr title="App\Http\Controllers\Api\TagController::index">index</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#154"><abbr title="App\Http\Controllers\Api\TagController::destroy">destroy</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Resources/MessageResource.php.html#26"><abbr title="App\Http\Resources\MessageResource::toArray">toArray</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#202"><abbr title="App\Http\Controllers\Api\TaskController::toggleStatus">toggleStatus</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#129"><abbr title="App\Http\Controllers\Api\TagController::update">update</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#156"><abbr title="App\Http\Controllers\Api\TaskController::update">update</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Controllers/Api/UserController.php.html#20"><abbr title="App\Http\Controllers\Api\UserController::updateRole">updateRole</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/Api/TagController.php.html#36"><abbr title="App\Http\Controllers\Api\TagController::index">index</abbr></a></td><td class="text-right">82.6%</td><td class="text-right">12</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#237"><abbr title="App\Http\Controllers\Api\TaskController::restore">restore</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#321"><abbr title="App\Http\Controllers\Api\TaskController::clearTaskCaches">clearTaskCaches</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Resources/TaskCollection.php.html#15"><abbr title="App\Http\Resources\TaskCollection::toArray">toArray</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Resources/BulkOperationResource.php.html#100"><abbr title="App\Http\Resources\BulkOperationResource::generateErrorSummary">generateErrorSummary</abbr></a></td><td class="text-right">68.4%</td><td class="text-right">9</td><td class="text-right">11</td></tr>
+       <tr><td><a href="Resources/TagCollection.php.html#49"><abbr title="App\Http\Resources\TagCollection::getMostUsedTags">getMostUsedTags</abbr></a></td><td class="text-right">58.8%</td><td class="text-right">7</td><td class="text-right">10</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#70"><abbr title="App\Http\Controllers\Api\TaskController::index">index</abbr></a></td><td class="text-right">55.6%</td><td class="text-right">5</td><td class="text-right">7</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#202"><abbr title="App\Http\Controllers\Api\TaskController::toggleStatus">toggleStatus</abbr></a></td><td class="text-right">84.2%</td><td class="text-right">6</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#262"><abbr title="App\Http\Controllers\Api\TaskController::bulk">bulk</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">4</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#154"><abbr title="App\Http\Controllers\Api\TagController::destroy">destroy</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#129"><abbr title="App\Http\Controllers\Api\TagController::update">update</abbr></a></td><td class="text-right">84.6%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Resources/TagCollection.php.html#15"><abbr title="App\Http\Resources\TagCollection::toArray">toArray</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">3</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Controllers/Api/TagController.php.html#88"><abbr title="App\Http\Controllers\Api\TagController::store">store</abbr></a></td><td class="text-right">81.8%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#156"><abbr title="App\Http\Controllers\Api\TaskController::update">update</abbr></a></td><td class="text-right">84.6%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#182"><abbr title="App\Http\Controllers\Api\TaskController::destroy">destroy</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/Api/TaskController.php.html#115"><abbr title="App\Http\Controllers\Api\TaskController::store">store</abbr></a></td><td class="text-right">81.8%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controllers/Api/UserController.php.html#20"><abbr title="App\Http\Controllers\Api\UserController::updateRole">updateRole</abbr></a></td><td class="text-right">87.5%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controllers/Auth/VerifyEmailController.php.html#16"><abbr title="App\Http\Controllers\Auth\VerifyEmailController::__invoke">__invoke</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Resources/BulkOperationResource.php.html#88"><abbr title="App\Http\Resources\BulkOperationResource::calculateSuccessRate">calculateSuccessRate</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Resources/MessageResource.php.html#26"><abbr title="App\Http\Resources\MessageResource::toArray">toArray</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.3.7</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.25</a> and <a href="https://phpunit.de/">PHPUnit 12.3.8</a> at Sat Sep 20 9:06:38 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/billboard.pkgd.min.js?v=12.3.7" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,5,"Resources\/TaskCollection.php.html#10","App\\Http\\Resources\\TaskCollection","30"],[54.054054054054056,10,"Resources\/TagCollection.php.html#10","App\\Http\\Resources\\TagCollection","19.70"],[68.54838709677419,35,"Controllers\/Api\/TaskController.php.html#30","App\\Http\\Controllers\\Api\\TaskController","73.11"],[75,2,"Controllers\/Auth\/VerifyEmailController.php.html#11","App\\Http\\Controllers\\Auth\\VerifyEmailController","2.06"],[82.6086956521739,17,"Resources\/BulkOperationResource.php.html#41","App\\Http\\Resources\\BulkOperationResource","18.52"],[85.29411764705883,27,"Controllers\/Api\/TagController.php.html#22","App\\Http\\Controllers\\Api\\TagController","29.32"],[87.5,3,"Resources\/MessageResource.php.html#10","App\\Http\\Resources\\MessageResource","3.02"],[93.33333333333333,3,"Controllers\/Api\/UserController.php.html#13","App\\Http\\Controllers\\Api\\UserController","3.00"],[100,5,"Controllers\/Api\/AuthController.php.html#19","App\\Http\\Controllers\\Api\\AuthController","5"],[100,6,"Controllers\/Api\/BaseApiController.php.html#13","App\\Http\\Controllers\\Api\\BaseApiController","6"],[100,0,"Controllers\/Controller.php.html#7","App\\Http\\Controllers\\Controller","0"],[100,1,"Middleware\/ForceCacheControlHeader.php.html#10","App\\Http\\Middleware\\ForceCacheControlHeader","1"],[100,3,"Requests\/BulkTaskRequest.php.html#11","App\\Http\\Requests\\BulkTaskRequest","3"],[100,3,"Requests\/FilterTasksRequest.php.html#10","App\\Http\\Requests\\FilterTasksRequest","3"],[100,3,"Requests\/LoginRequest.php.html#9","App\\Http\\Requests\\LoginRequest","3"],[100,3,"Requests\/RegisterRequest.php.html#9","App\\Http\\Requests\\RegisterRequest","3"],[100,3,"Requests\/StoreTagRequest.php.html#9","App\\Http\\Requests\\StoreTagRequest","3"],[100,3,"Requests\/StoreTaskRequest.php.html#14","App\\Http\\Requests\\StoreTaskRequest","3"],[100,3,"Requests\/UpdateTagRequest.php.html#10","App\\Http\\Requests\\UpdateTagRequest","3"],[100,3,"Requests\/UpdateTaskRequest.php.html#14","App\\Http\\Requests\\UpdateTaskRequest","3"],[100,3,"Requests\/UpdateUserRoleRequest.php.html#11","App\\Http\\Requests\\UpdateUserRoleRequest","3"],[100,1,"Resources\/TagResource.php.html#21","App\\Http\\Resources\\TagResource","1"],[100,1,"Resources\/TaskResource.php.html#29","App\\Http\\Resources\\TaskResource","1"]]</script>
+  <script type="application/json" id="complexity_method">[[0,3,"Controllers\/Api\/TaskController.php.html#237","App\\Http\\Controllers\\Api\\TaskController::restore","12"],[0,3,"Controllers\/Api\/TaskController.php.html#321","App\\Http\\Controllers\\Api\\TaskController::clearTaskCaches","12"],[0,3,"Resources\/TaskCollection.php.html#15","App\\Http\\Resources\\TaskCollection::toArray","12"],[0,1,"Resources\/TaskCollection.php.html#50","App\\Http\\Resources\\TaskCollection::getStatusCounts","2"],[0,1,"Resources\/TaskCollection.php.html#63","App\\Http\\Resources\\TaskCollection::getPriorityCounts","2"],[50,4,"Controllers\/Api\/TaskController.php.html#262","App\\Http\\Controllers\\Api\\TaskController::bulk","6.00"],[50,3,"Resources\/TagCollection.php.html#15","App\\Http\\Resources\\TagCollection::toArray","4.12"],[55.55555555555556,5,"Controllers\/Api\/TaskController.php.html#70","App\\Http\\Controllers\\Api\\TaskController::index","7.19"],[58.82352941176471,7,"Resources\/TagCollection.php.html#49","App\\Http\\Resources\\TagCollection::getMostUsedTags","10.42"],[66.66666666666666,2,"Resources\/BulkOperationResource.php.html#88","App\\Http\\Resources\\BulkOperationResource::calculateSuccessRate","2.15"],[68.42105263157895,9,"Resources\/BulkOperationResource.php.html#100","App\\Http\\Resources\\BulkOperationResource::generateErrorSummary","11.55"],[75,3,"Controllers\/Api\/TaskController.php.html#182","App\\Http\\Controllers\\Api\\TaskController::destroy","3.14"],[75,2,"Controllers\/Auth\/VerifyEmailController.php.html#16","App\\Http\\Controllers\\Auth\\VerifyEmailController::__invoke","2.06"],[81.81818181818183,3,"Controllers\/Api\/TagController.php.html#88","App\\Http\\Controllers\\Api\\TagController::store","3.05"],[81.81818181818183,2,"Controllers\/Api\/TaskController.php.html#115","App\\Http\\Controllers\\Api\\TaskController::store","2.02"],[82.6086956521739,12,"Controllers\/Api\/TagController.php.html#36","App\\Http\\Controllers\\Api\\TagController::index","12.76"],[83.33333333333334,5,"Controllers\/Api\/TagController.php.html#154","App\\Http\\Controllers\\Api\\TagController::destroy","5.12"],[83.33333333333334,2,"Resources\/MessageResource.php.html#26","App\\Http\\Resources\\MessageResource::toArray","2.02"],[84.21052631578947,6,"Controllers\/Api\/TaskController.php.html#202","App\\Http\\Controllers\\Api\\TaskController::toggleStatus","6.14"],[84.61538461538461,4,"Controllers\/Api\/TagController.php.html#129","App\\Http\\Controllers\\Api\\TagController::update","4.06"],[84.61538461538461,3,"Controllers\/Api\/TaskController.php.html#156","App\\Http\\Controllers\\Api\\TaskController::update","3.03"],[87.5,2,"Controllers\/Api\/UserController.php.html#20","App\\Http\\Controllers\\Api\\UserController::updateRole","2.01"],[95.83333333333334,6,"Resources\/BulkOperationResource.php.html#46","App\\Http\\Resources\\BulkOperationResource::toArray","6"],[100,1,"Controllers\/Api\/AuthController.php.html#24","App\\Http\\Controllers\\Api\\AuthController::register","1"],[100,2,"Controllers\/Api\/AuthController.php.html#56","App\\Http\\Controllers\\Api\\AuthController::login","2"],[100,1,"Controllers\/Api\/AuthController.php.html#84","App\\Http\\Controllers\\Api\\AuthController::me","1"],[100,1,"Controllers\/Api\/AuthController.php.html#102","App\\Http\\Controllers\\Api\\AuthController::logout","1"],[100,1,"Controllers\/Api\/BaseApiController.php.html#18","App\\Http\\Controllers\\Api\\BaseApiController::errorResponse","1"],[100,2,"Controllers\/Api\/BaseApiController.php.html#32","App\\Http\\Controllers\\Api\\BaseApiController::successResponse","2"],[100,2,"Controllers\/Api\/BaseApiController.php.html#50","App\\Http\\Controllers\\Api\\BaseApiController::dataResponse","2"],[100,1,"Controllers\/Api\/BaseApiController.php.html#72","App\\Http\\Controllers\\Api\\BaseApiController::getStandardHeaders","1"],[100,1,"Controllers\/Api\/TagController.php.html#28","App\\Http\\Controllers\\Api\\TagController::__construct","1"],[100,2,"Controllers\/Api\/TagController.php.html#110","App\\Http\\Controllers\\Api\\TagController::show","2"],[100,1,"Controllers\/Api\/TaskController.php.html#53","App\\Http\\Controllers\\Api\\TaskController::__construct","1"],[100,3,"Controllers\/Api\/TaskController.php.html#138","App\\Http\\Controllers\\Api\\TaskController::show","3"],[100,1,"Controllers\/Api\/TaskController.php.html#286","App\\Http\\Controllers\\Api\\TaskController::loadTaskRelationships","1"],[100,1,"Controllers\/Api\/TaskController.php.html#294","App\\Http\\Controllers\\Api\\TaskController::generateTaskIndexCacheKey","1"],[100,1,"Controllers\/Api\/UserController.php.html#42","App\\Http\\Controllers\\Api\\UserController::getRole","1"],[100,1,"Middleware\/ForceCacheControlHeader.php.html#12","App\\Http\\Middleware\\ForceCacheControlHeader::handle","1"],[100,1,"Requests\/BulkTaskRequest.php.html#21","App\\Http\\Requests\\BulkTaskRequest::authorize","1"],[100,1,"Requests\/BulkTaskRequest.php.html#37","App\\Http\\Requests\\BulkTaskRequest::rules","1"],[100,1,"Requests\/BulkTaskRequest.php.html#52","App\\Http\\Requests\\BulkTaskRequest::messages","1"],[100,1,"Requests\/FilterTasksRequest.php.html#15","App\\Http\\Requests\\FilterTasksRequest::authorize","1"],[100,1,"Requests\/FilterTasksRequest.php.html#23","App\\Http\\Requests\\FilterTasksRequest::rules","1"],[100,1,"Requests\/FilterTasksRequest.php.html#71","App\\Http\\Requests\\FilterTasksRequest::messages","1"],[100,1,"Requests\/LoginRequest.php.html#14","App\\Http\\Requests\\LoginRequest::authorize","1"],[100,1,"Requests\/LoginRequest.php.html#22","App\\Http\\Requests\\LoginRequest::rules","1"],[100,1,"Requests\/LoginRequest.php.html#33","App\\Http\\Requests\\LoginRequest::messages","1"],[100,1,"Requests\/RegisterRequest.php.html#14","App\\Http\\Requests\\RegisterRequest::authorize","1"],[100,1,"Requests\/RegisterRequest.php.html#22","App\\Http\\Requests\\RegisterRequest::rules","1"],[100,1,"Requests\/RegisterRequest.php.html#36","App\\Http\\Requests\\RegisterRequest::messages","1"],[100,1,"Requests\/StoreTagRequest.php.html#14","App\\Http\\Requests\\StoreTagRequest::authorize","1"],[100,1,"Requests\/StoreTagRequest.php.html#22","App\\Http\\Requests\\StoreTagRequest::rules","1"],[100,1,"Requests\/StoreTagRequest.php.html#33","App\\Http\\Requests\\StoreTagRequest::messages","1"],[100,1,"Requests\/StoreTaskRequest.php.html#19","App\\Http\\Requests\\StoreTaskRequest::authorize","1"],[100,1,"Requests\/StoreTaskRequest.php.html#27","App\\Http\\Requests\\StoreTaskRequest::rules","1"],[100,1,"Requests\/StoreTaskRequest.php.html#45","App\\Http\\Requests\\StoreTaskRequest::messages","1"],[100,1,"Requests\/UpdateTagRequest.php.html#15","App\\Http\\Requests\\UpdateTagRequest::authorize","1"],[100,1,"Requests\/UpdateTagRequest.php.html#23","App\\Http\\Requests\\UpdateTagRequest::rules","1"],[100,1,"Requests\/UpdateTagRequest.php.html#41","App\\Http\\Requests\\UpdateTagRequest::messages","1"],[100,1,"Requests\/UpdateTaskRequest.php.html#19","App\\Http\\Requests\\UpdateTaskRequest::authorize","1"],[100,1,"Requests\/UpdateTaskRequest.php.html#27","App\\Http\\Requests\\UpdateTaskRequest::rules","1"],[100,1,"Requests\/UpdateTaskRequest.php.html#46","App\\Http\\Requests\\UpdateTaskRequest::messages","1"],[100,1,"Requests\/UpdateUserRoleRequest.php.html#16","App\\Http\\Requests\\UpdateUserRoleRequest::authorize","1"],[100,1,"Requests\/UpdateUserRoleRequest.php.html#24","App\\Http\\Requests\\UpdateUserRoleRequest::rules","1"],[100,1,"Requests\/UpdateUserRoleRequest.php.html#43","App\\Http\\Requests\\UpdateUserRoleRequest::messages","1"],[100,1,"Resources\/MessageResource.php.html#17","App\\Http\\Resources\\MessageResource::__construct","1"],[100,1,"Resources\/TagResource.php.html#26","App\\Http\\Resources\\TagResource::toArray","1"],[100,1,"Resources\/TaskResource.php.html#34","App\\Http\\Resources\\TaskResource::toArray","1"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [1,0,0,0,0,0,1,1,1,3,1,15])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [5,0,0,0,0,0,4,2,2,9,1,46])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>
